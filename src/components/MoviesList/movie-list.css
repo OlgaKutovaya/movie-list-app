@@ -1,0 +1,40 @@
+.movie-list-wrapper {
+    background: #0a0a16;
+}
+
+.movies-list {
+    width: 100%;
+    padding: 20px 5px;
+    height: 540px;
+}
+
+.movie-post-wrapper {
+    width: 80px;
+    height: auto;
+    min-height: 130px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+.movie-post-wrapper:last-child {
+}
+
+.movie-post-wrapper p {
+    padding: 7px 0;
+}
+
+.movie-list-wrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.movies-list-inner {
+    height: auto;
+    max-height: 480px;
+}
+
+img {
+    min-height: 130px;
+}
+
